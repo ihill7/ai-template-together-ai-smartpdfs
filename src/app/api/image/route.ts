@@ -21,7 +21,7 @@ export async function POST(req: Request) {
   `;
 
   const generatedImage = await togetheraiBaseClient.images.create({
-    model: "black-forest-labs/FLUX.1-dev",
+    model: "black-forest-labs/FLUX.2-dev",
     width: 1280,
     height: 720,
     steps: 24,
